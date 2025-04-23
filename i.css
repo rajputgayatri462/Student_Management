@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bree+Serif&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+body {
+ background: url(log.jpeg);
+ /* background-attachment:scroll;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+nav {
+  position: absolute;
+  background-color: rgb(172, 110, 110); 
+  height: 70px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 25px;
+  position: relative;
+  left: 5%;
+  color: black;
+  font-weight: bold;
+  line-height: 70px;
+}
+ul {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+}
+ul li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 5px;
+}
+
+li a:hover{
+  color: white;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+ul li i {
+  font-size: 25px;
+  margin: 0 20px;
+}
+
+
+.main_img {
+  width: 100%;
+  height: 700px;
+}
+.section1 {
+  padding-top: 70px;
+/*  background: rgba(0, 0, 0, 0.5);*/
+  min-height: 100vh;
+}
+.img_text {
+  position: absolute;
+  top: 20rem;
+  left: 25rem;
+  font-size: 35px;
+  width: 46rem;
+  height: 3rem;
+  padding: 2px;
+  font-family: "Roboto", serif;
+  color: white;
+   background-color: midnightblue; 
+/*  padding-right: 20px;*/
+/*  padding-left: 15px;*/
+}
+.welcome_img{
+  width: 100%;
+  height: 350px;
+  padding-top: 65px;
+}
+.container{
+  padding-top: 70px;
+
+}
+/* .center2{
+  padding-top: -30px;
+  padding-left:4rem ;
+  margin-left: 35rem;
+  margin-bottom: -6rem;
+} */
+.title{
+  padding: 50px;
+}
+.vendor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vendor-row {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Add space between rows */
+  margin-right: 20px; /* Add space between columns */
+  margin: 10px;
+}
+.vendor-row img {
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.vendor-row .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(118, 48, 48, 0.6);
+  color: #fff;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+.vendor-row:hover {
+  transform: scale(1.05);
+  font-size: 24px;
+}
+.vendor-row:hover img {
+  transform: scale(1.1);
+  font-size: 18px;
+}
+.vendor-row:hover .info {
+  transform: translateY(0);
+  font-size: 20px;
+}
+.book-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d26b6bca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+.book-btn:hover {
+    background-color: #7b1c1cae;
+}
+
+.col-md-4 .welcome_img {
+  border-radius: 15px;
+
+}
+.col-md-4 button {
+  justify-content: center;
+
+}
+.label_text{
+  display: inline-block;
+  width: 100px;
+  text-align:right ;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.admission_form{
+    padding-left: 30%;
+    
+}
+.input_deg{
+    /* justify-content: center; */
+    /* padding-left: 5rem; */
+    width: 37%;
+    height: 40px;
+  padding: 1px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+input text {
+    padding: 10px;
+    margin: 7px;
+}
+.adm_int{
+    padding-top: 10px;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+    margin-left: 50%;
+    margin: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+}
+.center1{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
